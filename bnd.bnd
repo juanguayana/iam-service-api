@@ -1,0 +1,18 @@
+Bundle-Name: iam-service
+Bundle-SymbolicName: com.axa.portal.col.portlets.iam.service
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.axa.portal.col.portlets.iam.service.api,\
+	com.axa.portal.col.portlets.iam.service.exception,\
+	com.axa.portal.col.portlets.iam.service.enums
+Bundle-ClassPath: \
+	.,\
+	META-INF/lib/httpclient.jar,\
+	META-INF/lib/httpcore.jar,\
+	META-INF/lib/commons-codec.jar
+-includeresource: \
+	META-INF/lib/httpclient.jar=httpclient-4.5.5.jar,\
+	META-INF/lib/httpcore.jar=httpcore-4.4.9.jar,\
+	META-INF/lib/commons-codec.jar=commons-codec-1.13.jar
+	
+-metatype: *
