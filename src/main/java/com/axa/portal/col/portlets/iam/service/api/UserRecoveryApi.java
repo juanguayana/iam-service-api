@@ -8,6 +8,7 @@ import aQute.bnd.annotation.ProviderType;
 
 /**
  * @author juan.guayana
+ * 
  */
 @ProviderType
 public interface UserRecoveryApi {
@@ -15,4 +16,5 @@ public interface UserRecoveryApi {
 	public JSONObject getUserInfo() throws PortletException;
 	
 	public void notifyUser() throws PortletException;
+	
 }
