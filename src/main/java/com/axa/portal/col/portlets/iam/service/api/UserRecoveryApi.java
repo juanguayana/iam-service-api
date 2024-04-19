@@ -8,7 +8,6 @@ import aQute.bnd.annotation.ProviderType;
 
 /**
  * @author juan.guayana
- * 
  */
 @ProviderType
 public interface UserRecoveryApi {
